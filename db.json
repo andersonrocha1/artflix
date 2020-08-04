@@ -8,6 +8,15 @@
         "text": "Formação de Front End na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       }
+    },
+    {
+      "id": 2,
+      "titulo": "Filmes",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Filmes Variados",
+        "url": ""
+      }
     }
   ],
   "videos": [
@@ -22,6 +31,12 @@
       "url": "https://www.youtube.com/watch?v=34uHo7hFmG0",
       "categoriaId": 1,
       "id": 2
+    },
+    {
+      "titulo": "As Skills de um Desenvolvedor Front-End // Vlog #70",
+      "url": "https://www.youtube.com/watch?v=TWy2rxyZLrE",
+      "categoriaId": 1,
+      "id": 3
     }
   ]
 }
