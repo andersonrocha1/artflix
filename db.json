@@ -17,6 +17,15 @@
         "text": "Filmes Variados",
         "url": ""
       }
+    },
+    {
+      "id": 3,
+      "titulo": "Séries",
+      "cor": "#F0E68C",
+      "link_extra": {
+        "text": "Só séries inéditas",
+        "url": ""
+      }
     }
   ],
   "videos": [
@@ -37,6 +46,12 @@
       "url": "https://www.youtube.com/watch?v=TWy2rxyZLrE",
       "categoriaId": 1,
       "id": 3
+    },
+    {
+      "titulo": "AVATAR 2. Filme de ação 2020 - filme completo dublado",
+      "url": "https://www.youtube.com/watch?v=dV8WNLu0AMo",
+      "categoriaId": 2,
+      "id": 4
     }
   ]
 }

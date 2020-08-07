@@ -5,6 +5,7 @@ import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 
+// eslint-disable-next-line linebreak-style
 function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
@@ -13,9 +14,25 @@ function CadastroCategoria() {
   };
 
   const { handleChange, values, clearForm } = useForm(valoresIniciais);
-
   const [categorias, setCategorias] = useState([]);
+  //const [values, setValues] = useState(valoresIniciais);
 
+  /*
+  function setValue(chave, valor){
+      //chave, nome, descrição
+      setValues({
+        ...values,
+        [chave]: valor,
+      });
+  }
+  function handleChange(infosDoEvento){
+    setValue(
+      infosDoEvento.target.getAttribute('name'),
+      infosDoEvento.target.value,
+
+    );
+  }
+*/
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
@@ -102,8 +119,9 @@ function CadastroCategoria() {
       )}
 
       <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.titulo}`}>
+        {categorias.map((categoria, indice) => (
+          <li key={`${categoria.nome}${indice}`}>
+            {categoria.nome}
             {categoria.titulo}
           </li>
         ))}
