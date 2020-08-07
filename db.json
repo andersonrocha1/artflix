@@ -2,28 +2,28 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
+      "titulo": "Artes com Tinta",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Ideias Incríveis",
+        "url": " https://www.facebook.com/ideias.incri..."
       }
     },
     {
       "id": 2,
-      "titulo": "Filmes",
+      "titulo": "Artes de Rua",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Filmes Variados",
+        "text": "Artes mundo a fora",
         "url": ""
       }
     },
     {
       "id": 3,
-      "titulo": "Séries",
+      "titulo": "Grafite",
       "cor": "#F0E68C",
       "link_extra": {
-        "text": "Só séries inéditas",
+        "text": "Grafitando com estilo",
         "url": ""
       }
     }
@@ -32,25 +32,25 @@
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "12 IDEIAS BRILHANTES DE ARTE COM TINTA SPRAY",
+      "url": "https://www.youtube.com/watch?v=F0rC0QpggIs"
     },
     {
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0",
-      "categoriaId": 1,
+      "titulo": "6 ARTES DE RUA 3D QUE VÃO TE HIPNOTIZAR",
+      "url": "https://www.youtube.com/watch?v=RU7h4g8Ndyk",
+      "categoriaId": 2,
       "id": 2
     },
     {
-      "titulo": "As Skills de um Desenvolvedor Front-End // Vlog #70",
-      "url": "https://www.youtube.com/watch?v=TWy2rxyZLrE",
-      "categoriaId": 1,
+      "titulo": "AS MELHORES ARTES DE RUA EM 3D [Ilusão] - (Best 3D Street Art) - PT.1",
+      "url": "https://www.youtube.com/watch?v=YYe_BlE95Kk",
+      "categoriaId": 2,
       "id": 3
     },
     {
-      "titulo": "AVATAR 2. Filme de ação 2020 - filme completo dublado",
-      "url": "https://www.youtube.com/watch?v=dV8WNLu0AMo",
-      "categoriaId": 2,
+      "titulo": "3D GRAFFITI MURALS THAT WILL BLOW YOUR MIND",
+      "url": "https://www.youtube.com/watch?v=mDdqq_6OpyU",
+      "categoriaId": 3,
       "id": 4
     }
   ]
